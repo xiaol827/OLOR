@@ -1,0 +1,17 @@
+# core
+torch>=2.0
+timm
+albumentations
+yacs
+pyyaml
+pandas
+numpy
+pillow
+tqdm
+thop
+
+# data preparation (Data_Preprocess.ipynb)
+scikit-learn
+scipy
+opencv-python
+jupyter
