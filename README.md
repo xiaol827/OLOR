@@ -1,12 +1,12 @@
 <div align="center">
 
-# One Step Learning, One Step Review<br>(OLOR, AAAI 2024)
+# One Step Learning, One Step Review
 
 [![arXiv](https://img.shields.io/badge/arXiv-2401.10962-b31b1b.svg)](https://arxiv.org/abs/2401.10962)
 
 </div>
 
-OLOR is a weight rollback-based fine-tuning method for pre-trained vision models. It incorporates a weight rollback term into the weight update of the optimizer at each step, together with a layer-wise penalty that adjusts the rollback level across layers, alleviating knowledge forgetting during downstream adaptation.
+OLOR is a weight rollback-based fine-tuning method for pre-trained models. It incorporates a weight rollback term into the weight update of the optimizer at each step, together with a layer-wise penalty that adjusts the rollback level across layers, alleviating knowledge forgetting during downstream adaptation.
 
 ## Algorithm
 
@@ -120,7 +120,7 @@ python ./OLOR/test.py \
 
 ## Citation
 
-If you find this work useful, please cite:
+If you find this work useful, please cite our paper:
 
 ```bibtex
 @inproceedings{huang2024one,
