@@ -28,8 +28,8 @@ We implement OLOR on top of two common optimizers:
 Clone this repository:
 
 ```bash
-git clone git@github.com:rainbow-xiao/OLOR-AAAI-2024.git
-cd OLOR-AAAI-2024
+git clone git@github.com:xiaol827/OLOR.git
+cd OLOR
 ```
 
 Install the dependencies (Python >= 3.8 and PyTorch >= 2.0 with CUDA support are required, as the training script uses `torch.compile`):
